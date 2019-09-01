@@ -1,0 +1,19 @@
+
+name = "wapp"
+release = "wet0"
+version = "0.01"
+copyright = "(c) 2019 Mani Jamali"
+license = "GNU GPL v3.0"
+
+code = True
+data = False
+
+find_code = "code"
+
+applist = [ '/bin/wapp' ]
+
+compiler = True
+compile = [ 'wapp.py:wapp' ]
+
+unpack = '/bin'
+
